@@ -23,7 +23,7 @@ db.connect((err)=>{
 
 app.get('/' , (req , res)=>{
 
-    res.send("hey")
+    res.send("hello!")
 
 })
 
